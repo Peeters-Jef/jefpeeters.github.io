@@ -6,25 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/styles/1-base/1-reset.css">
     <link rel="stylesheet" href="../src/styles/1-base/2-general.css">
+    <link rel="stylesheet" href="../src/styles/2-layout/index.css">
     <title>Home | Jef Peeters</title>
 </head>
 <body>
-    <header>
+    <header class="wrapper">
+        <div class="nav__logo">
+            <h1 class="logo__title">
+                <a class="logo__link" href="index.html">
+                    Jef Peeters
+                </a>
+            </h1>
+        </div>
+        <div class="nav__toggle"></div>
         <nav>
-            <div class="wrapper flex flex-js-sb">
-                <div class="nav__logo">
-                    <h1>
-                        <a href="index.html">
-                            Jef Peeters
-                        </a>
-                    </h1>
-                </div>
-                <div class="nav__toggle">
-                    <img class="nav__toggle--closed" src="images/hamburger.svg" alt="open menu icon">
-                    <img class="nav__toggle--open hidden" src="images/close_menu.svg" alt="close menu icon">
-                </div>
-            </div>
-            <div class="nav__content--small">
+            <div class="nav__content hidden">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="nav__link" href="">About me</a>
@@ -39,12 +35,12 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="wrapper">
         <section class="main__intro">
             <h1 class="intro__title">
                 Jef Peeters
             </h1>
-            <p class="intro__function">
+            <p class="intro__text">
                 Front-end web developer
             </p>
         </section>
