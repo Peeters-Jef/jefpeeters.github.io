@@ -18,4 +18,8 @@
 li {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=2-general.css.map */
