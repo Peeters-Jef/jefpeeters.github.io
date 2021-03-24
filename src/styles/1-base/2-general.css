@@ -1,0 +1,21 @@
+/* Styles */
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-js-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=2-general.css.map */
