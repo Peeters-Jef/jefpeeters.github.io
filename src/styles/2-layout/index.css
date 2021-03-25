@@ -7,9 +7,25 @@
 .main__intro {
   background-color: var(--white);
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 11rem;
 }
 
 .intro__title {
-   font-size: 3rem;
+   font-size: 4.2rem;
+   font-weight: 900;
+}
+
+.intro__text {
+  font-size: 1.8rem;
+  padding-top: 2.5rem;
+  padding-bottom: 8.5rem;
+  color: var(--blue);
+}
+
+.intro__button {
+  border: 0px solid;
+  border-radius: 7rem;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 1.5rem 3rem;
 }

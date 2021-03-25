@@ -4,19 +4,23 @@
    --blue: #58A5FF;
    --white: #FFF;
    --black: #000;
+   --grey: #5d5d5d;
+
 }
 
 /* Styles */
+
+* {
+   font-family: 'Roboto', sans-serif;
+}
 
 body {
    background-color: var(--blue);
 }
 
-
 .wrapper {
    padding-left: 4rem;
    padding-right: 4rem;
-  
 }
 
 .hidden {
@@ -69,8 +73,10 @@ a {
 
 /* Footer */
 
+
 .footer__socials__list {
    background-color: var(--white);
+   padding-top: 5rem;
 }
 
 .socials__item {
@@ -84,4 +90,6 @@ a {
 footer p {
    background-color: var(--white);
    text-align: center;
+   padding-top: 1rem;
+   font-size: 1.2rem;
 }
