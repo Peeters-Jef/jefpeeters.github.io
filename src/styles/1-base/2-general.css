@@ -53,7 +53,8 @@ a {
 
 /* Header */
 
-.nav__logo {
+.navigation {
+   height: 10vh;
    background-color: var(--white);
 }
 
@@ -84,11 +85,10 @@ a {
 
 /* Footer */
 
-.footer__socials__list {
+footer {
+   height: 15vh;
    background-color: var(--white);
-   padding-top: 5rem;
 }
-
 .socials__item {
    margin: auto;
 }
@@ -98,7 +98,6 @@ a {
 }
 
 footer p {
-   background-color: var(--white);
    text-align: center;
    padding-top: 1rem;
    font-size: 1.2rem;
