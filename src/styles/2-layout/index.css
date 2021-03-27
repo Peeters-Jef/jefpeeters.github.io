@@ -25,6 +25,7 @@
 
 .intro__button {
   border: 0px solid;
+  cursor: pointer;
   border-radius: 7rem;
   color: var(--white);
   background-color: var(--blue);
