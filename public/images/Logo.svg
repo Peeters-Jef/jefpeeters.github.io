@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        fill: #adadad;
+        text-anchor: middle;
+        font-family: Verdana;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 7.5px;
+      }
+    </style>
+  </defs>
+  <text id="JP" class="cls-1" transform="matrix(3.702, -0.039, 0.035, 3.425, 120.495, 179.983)"><tspan x="0">JP</tspan></text>
+  <rect id="Border" class="cls-2" width="240" height="240"/>
+</svg>
