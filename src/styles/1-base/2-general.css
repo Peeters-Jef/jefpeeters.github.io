@@ -107,6 +107,12 @@ header {
    color: var(--blue);
 }
 
+/* Main */
+
+main {
+   background-color: var(--white);
+}
+
 
 /* Footer */
 
