@@ -19,8 +19,8 @@ body {
 }
 
 .wrapper {
-   padding-left: 4rem;
-   padding-right: 4rem;
+   width: 75%;
+   margin: auto;
 }
 
 .hidden {
@@ -59,18 +59,17 @@ header {
 
 .navigation {
    height: 10vh;
-   z-index: 20;
 }
 
 .logo__link {
    background-image: url(/public/images/Logo.svg);
    background-size: 100% 100%;
    display: block;
-   height: 5rem;
+   height: 4rem;
    overflow: hidden;
    text-indent: 100%;
    white-space: nowrap;
-   width: 5rem;
+   width: 4rem;
    position: fixed;
    top: 0;
    left: auto;
@@ -79,9 +78,9 @@ header {
 .nav__toggle {
    position: fixed;
    top: 0;
-   right: 4rem;
-   width: 5rem;
-   height: 5rem;
+   right: 12.5%;
+   width: 4rem;
+   height: 4rem;
 }
 
 .nav__content {
@@ -111,6 +110,10 @@ header {
 
 main {
    background-color: var(--white);
+}
+
+h1 {
+   text-align: center;
 }
 
 
