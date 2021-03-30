@@ -114,6 +114,13 @@ main {
 
 h1 {
    text-align: center;
+   font-size: 3.5rem;
+   font-weight: 700;
+   padding: 3rem 0;
+}
+
+p {
+   text-align: center;
 }
 
 
@@ -122,6 +129,7 @@ h1 {
 footer {
    height: 15vh;
    background-color: var(--white);
+   padding-top: 5rem;
 }
 
 .socials__item {
@@ -133,7 +141,6 @@ footer {
 }
 
 footer p {
-   text-align: center;
    padding-top: 1rem;
    font-size: 1.2rem;
 }

@@ -1,0 +1,19 @@
+@import url(/src/styles/1-base/2-general.css);
+
+
+.skills__section {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-bottom: 10rem;
+}
+
+.skills__list {
+    text-align: right;
+}
+
+.skills__item {
+    padding-bottom: 1.5rem;
+}
+
+
