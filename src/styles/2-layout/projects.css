@@ -5,9 +5,10 @@
 }
 
 .project__section {
-    padding-bottom: 7rem;
     width: 90%;
-    margin: auto;
+    margin: 2rem auto auto;
+    border: solid var(--blue) 0.4rem;
+    border-radius: 2rem;
 }
 
 .project__title {
@@ -17,7 +18,6 @@
 
 .project__text {
     padding: 2rem 0;
-    
 }
 
 .project__button {
@@ -26,6 +26,7 @@
     border-radius: 7rem;
     background-color: var(--blue);
     padding: 1.5rem 3rem;
+    margin-bottom: 2rem;
 }
 
 .project__button a {
