@@ -1,2 +1,33 @@
-@import url(/src/styles/1-base/2-general.css)
+@import url(/src/styles/1-base/2-general.css);
 
+.main__projects {
+    text-align: center;
+}
+
+.project__section {
+    padding-bottom: 7rem;
+    width: 90%;
+    margin: auto;
+}
+
+.project__title {
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+}
+
+.project__text {
+    padding: 2rem 0;
+    
+}
+
+.project__button {
+    border: 0px solid;
+    cursor: pointer;
+    border-radius: 7rem;
+    background-color: var(--blue);
+    padding: 1.5rem 3rem;
+}
+
+.project__button a {
+    color: var(--white);
+}

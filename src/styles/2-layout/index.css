@@ -26,7 +26,10 @@
   border: 0px solid;
   cursor: pointer;
   border-radius: 7rem;
-  color: var(--white);
   background-color: var(--blue);
   padding: 1.5rem 3rem;
+}
+
+.intro__button a {
+  color: var(--white);
 }
