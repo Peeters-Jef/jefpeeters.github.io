@@ -65,11 +65,23 @@
             <p class="contact__text">
                 Feel free to sent me an email regarding your project!
             </p>
-            <button class="contact__button">
-                <a href="mailto:peeters.jef01@gmail.com">
-                    Send me an email
-                </a>
-            </button>
+            <form class="contact__form" action="mailto:peeters.jef01@gmail.com" method="GET" enctype="text/plain">
+                <p class="form__name">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" required>
+                </p>
+                <p class="form__email">
+                    <label for="email">email</label>
+                    <input type="text" id="email" required>
+                </p>
+                <p class="form__text">
+                    <label for="text">Information about you project</label>
+                    <textarea id="text" cols="30" rows="10" required></textarea>
+                </p>
+                <p class="form__submit">
+                    <input type="submit" value="Send me an email">
+                </p>
+            </form>
         </section>
     </main>
     <footer>
