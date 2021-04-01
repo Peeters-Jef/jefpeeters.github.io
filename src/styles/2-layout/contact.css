@@ -31,16 +31,37 @@
     padding-bottom: 4.5rem;
 }
 
-.contact__button {
+.contact__form label {
+    display: none;
+}
+
+.form__name input {
+    background-color: var(--grey);
+    height: 5rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.form__email input {
+    background-color: var(--grey);
+    height: 5rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.form__text textarea {
+    background-color: var(--grey);
+    height: 15rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.form__submit input {
     border: 0px solid;
     cursor: pointer;
     border-radius: 7rem;
     background-color: var(--blue);
     padding: 1.5rem 3rem;
     margin-bottom: 2rem;
-}
-
-.contact__button a {
     color: var(--white);
 }
-
