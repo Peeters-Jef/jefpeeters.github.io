@@ -65,3 +65,22 @@
     margin-bottom: 2rem;
     color: var(--white);
 }
+
+.form__status {
+    font-size: 1.7rem;
+    width: 80%;
+    height: 4rem;
+    margin: auto;
+    padding: 1rem 0;
+    border-radius: 0.8rem;
+}
+
+.form__status--success {
+    color: var(--blue);
+    background-color: var(--grey);
+}
+
+.form__status--failed {
+    color: var(--red);
+    background-color: var(--grey);
+}

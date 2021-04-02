@@ -15,10 +15,12 @@
                     'Accept': 'application/json'
                 }
             }).then(response => {
-                status.innerHTML = "Thanks for you interest";
+                status.innerHTML = "Thanks for your interest!";
+                status.classList.toggle('form__status--success');
                 FORM.reset()
             }).catch(error => {
                 status.innerHTML = "There was a problem submitting your form, try again!";
+                status.classList.toggle('form__status--failed');
               });
         }
         FORM.addEventListener("submit", handleSubmit)
