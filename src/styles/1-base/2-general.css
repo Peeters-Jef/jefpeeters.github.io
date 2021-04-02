@@ -145,3 +145,23 @@ footer p {
    padding-top: 1rem;
    font-size: 1.2rem;
 }
+
+/* Media queries */
+
+@media (min-width: 28em) /* 448px */ {
+   h1 {
+      font-size: 4rem;
+   }
+
+   p {
+      font-size: 1.7rem;
+   }
+
+   .socials__image {
+      width: 2.5rem;
+   }
+
+   footer p {
+      font-size: 1.5rem;
+   }
+}
