@@ -65,22 +65,23 @@
             <p class="contact__text">
                 Feel free to sent me an email regarding your project!
             </p>
-            <form class="contact__form" action="mailto:peeters.jef01@gmail.com" method="GET" enctype="text/plain">
+            <form class="contact__form" action="https://formspree.io/f/moqyqvea" method="POST">
                 <p class="form__name">
                     <label for="name">Full name</label>
-                    <input type="text" id="name" placeholder="Full name" required>
+                    <input type="text" id="name" name="name" placeholder="Full name" required>
                 </p>
                 <p class="form__email">
                     <label for="email">email</label>
-                    <input type="text" id="email" placeholder="example@example.com" required>
+                    <input type="text" id="email" name="email" placeholder="example@example.com" required>
                 </p>
                 <p class="form__text">
                     <label for="text">Information about you project</label>
-                    <textarea id="text" required></textarea>
+                    <textarea id="text" name="message" required></textarea>
                 </p>
                 <p class="form__submit">
                     <input type="submit" value="Send me an email">
                 </p>
+                <p class="form__status"></p>
             </form>
         </section>
     </main>
@@ -107,5 +108,6 @@
         </p>
     </footer>
     <script src="/src/scripts/navigation.js"></script>
+    <script src="/src/scripts/mail.js"></script>
 </body>
 </html>
