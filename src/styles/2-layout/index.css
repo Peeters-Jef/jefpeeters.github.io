@@ -23,12 +23,26 @@
 }
 
 .intro__button {
-  border: 0px solid;
+  border: 0.4rem solid var(--blue);
   cursor: pointer;
   border-radius: 7rem;
   background-color: var(--blue);
   padding: 1.5rem 3rem;
   color: var(--white);
+}
+
+.intro__button:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  padding: 1.5rem 2.2rem;
+  border-width: 0.7rem;
+}
+
+.intro__button:focus {
+  background-color: var(--white);
+  color: var(--blue);
+  padding: 1.5rem 2.2rem;
+  border-width: 0.7rem;
 }
 
 @media (min-width: 28em) {

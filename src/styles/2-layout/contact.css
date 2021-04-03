@@ -66,6 +66,20 @@
     color: var(--white);
 }
 
+.form__submit input:hover {
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 1.5rem 2.2rem;
+    border-width: 0.7rem;
+}
+
+.form__submit input:focus {
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 1.5rem 2.2rem;
+    border-width: 0.7rem;
+}
+
 .form__status {
     font-size: 1.7rem;
     width: 80%;
