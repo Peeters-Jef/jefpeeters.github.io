@@ -29,22 +29,22 @@
     border-radius: 7rem;
     background-color: var(--blue);
     color: var(--white);
-    padding: 1rem 2rem;
-    display: inline-block;
-    margin: auto auto 2rem;
+    padding: 1rem;
+    display: block;
+    margin: 1rem 2.5rem;
 }
 
 .project__link:hover {
     background-color: var(--white);
     color: var(--blue);
-    padding: 1.5rem 2.2rem;
+    padding: 1rem 2.2rem;
     border-width: 0.7rem;
 }
 
 .project__link:focus {
     background-color: var(--white);
     color: var(--blue);
-    padding: 1.5rem 2.2rem;
+    padding: 1rem 2.2rem;
     border-width: 0.7rem;
 }
 
@@ -52,8 +52,20 @@
     width: 2rem;
 }
 
+@media (min-width: 25em) {
+    .project__link {
+        margin: 2rem 4rem;
+        padding: 1.5rem
+    }
+}
+
 @media (min-width: 28em) {
     .project__title {
         font-size: 2.7rem;
+    }
+
+    .project__link {
+        margin: 2.5rem 5.5rem;
+        padding: 1.5rem;
     }
 }
