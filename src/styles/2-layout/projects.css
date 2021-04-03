@@ -20,15 +20,20 @@
     padding: 2rem 0;
 }
 
-.project__button {
-    border: 0px solid;
+.project__buttons {
     cursor: pointer;
-    border-radius: 7rem;
-    background-color: var(--blue);
-    padding: 1.5rem 3rem;
-    margin-bottom: 2rem;
 }
 
-.project__button a {
+.project__link {
+    border: 0px solid;
+    border-radius: 7rem;
+    background-color: var(--blue);
     color: var(--white);
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: auto auto 2rem;
+}
+
+.project__link img{
+    width: 2rem;
 }
