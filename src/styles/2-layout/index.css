@@ -28,9 +28,6 @@
   border-radius: 7rem;
   background-color: var(--blue);
   padding: 1.5rem 3rem;
-}
-
-.intro__button a {
   color: var(--white);
 }
 
@@ -41,5 +38,10 @@
 
   .intro__text {
     font-size: 2.4rem;
+  }
+
+  .intro__button {
+    padding: 2.7rem 4rem;
+    font-size: 2rem;
   }
 }
