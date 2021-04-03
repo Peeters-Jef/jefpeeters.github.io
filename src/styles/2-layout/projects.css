@@ -37,3 +37,13 @@
 .project__link img{
     width: 2rem;
 }
+
+@media (min-width: 28em) {
+    .project__title {
+        font-size: 2.7rem;
+    }
+
+    .project__buttons {
+        margin: auto;
+    }
+}
