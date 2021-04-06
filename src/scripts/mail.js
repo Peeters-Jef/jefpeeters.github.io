@@ -1,8 +1,20 @@
 (function () {
     'use strict'
 
+    let checkAvailability = () => {
+        const STATUS = document.querySelector('.status__availability');
+        
+        if (STATUS.innerHTML === "Available") {
+            STATUS.classList.add(available);
+        } else {
+            STATUS.classList.add(busy);
+        }
+    }
+
     window.addEventListener('load', () => {
         const FORM = document.querySelector('.contact__form');
+
+        checkAvailability();
     
         async function handleSubmit(e) {
             e.preventDefault();
