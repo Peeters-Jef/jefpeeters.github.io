@@ -21,8 +21,15 @@
 
 .status__availability {
     font-size: 3.7rem;
-    color: var(--blue);
     padding: 1.2rem 0;
+}
+
+.status__availability--available {
+    color: var(--blue);   
+}
+
+.status__availability--busy {
+    color: var(--red);
 }
 
 .status__text {
