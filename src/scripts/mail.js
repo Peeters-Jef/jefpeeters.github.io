@@ -5,9 +5,9 @@
         const STATUS = document.querySelector('.status__availability');
         
         if (STATUS.innerHTML === "Available") {
-            STATUS.classList.add(available);
+            STATUS.classList.add('status__availability--available');
         } else {
-            STATUS.classList.add(busy);
+            STATUS.classList.add('status__availability--busy');
         }
     }
 
