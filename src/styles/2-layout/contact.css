@@ -98,3 +98,42 @@
     color: var(--red);
     background-color: var(--grey);
 }
+
+@media (min-width: 28em) {
+
+    .contact__text {
+        margin: auto 3rem;
+    }
+
+    .contact__status {
+        width: 90%;
+    }
+
+    .status__title {
+        font-size: 3rem;
+    }
+
+    .status__availability {
+        font-size: 4.5rem;
+    }
+
+    .status__text {
+        font-size: 2rem;
+    }
+
+    .form__name input {
+        width: 70%;
+    }
+    
+    .form__email input {
+        width: 70%;
+    }
+    
+    .form__text textarea {
+        width: 70%;
+    }
+
+    .form__status {
+        margin: auto 2rem;
+    }
+}
