@@ -164,3 +164,35 @@ footer p {
       font-size: 1.5rem;
    }
 }
+
+@media (min-width: 37.5em) /* 600px */{
+   h1 {
+      font-size: 5.2rem;
+   }
+
+   p {
+      font-size: 2.1rem;
+   }
+
+   .logo__link {
+      height: 5.5rem;
+      width: 5.5rem;
+   }
+
+   .nav__toggle {
+      height: 5.5rem;
+      width: 5.5rem
+   }
+
+   .nav__link {
+      font-size: 3.2rem;
+   }
+
+   .socials__image {
+      width: 3rem;
+   }
+
+   footer p {
+      font-size: 2rem;
+   }
+}
