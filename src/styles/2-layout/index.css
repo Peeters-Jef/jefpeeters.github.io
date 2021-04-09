@@ -5,6 +5,10 @@
 /* Main */
 
 .main__intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   height: 75vh;
   text-align: center;
 }
@@ -54,11 +58,21 @@
   }
 
   .intro__button {
-    padding: 2.7rem 4rem;
+    padding: 2.2rem 3.2rem;
     font-size: 2rem;
   }
 }
 
 @media (min-width: 37.5em) {
-  
+  .intro__title {
+    font-size: 6.5rem;
+  }
+
+  .intro__text {
+    font-size: 2.8rem;
+  }
+
+  .intro__button {
+    font-size: 2.3rem;
+  }
 }
