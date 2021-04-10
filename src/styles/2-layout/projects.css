@@ -7,8 +7,6 @@
 .project__section {
     width: 90%;
     margin: 2rem auto auto;
-    border: solid var(--blue) 0.4rem;
-    border-radius: 2rem;
 }
 
 .project__title {
@@ -17,7 +15,7 @@
 }
 
 .project__text {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .project__buttons {
@@ -31,7 +29,7 @@
     color: var(--white);
     padding: 1rem;
     display: block;
-    margin: 1rem 2.5rem;
+    margin: 1rem 2.5rem auto;
 }
 
 .project__link:hover {
@@ -54,7 +52,7 @@
 
 @media (min-width: 25em) {
     .project__link {
-        margin: 2rem 4rem;
+        margin: 2rem 4rem auto;
         padding: 1.5rem
     }
 }
@@ -65,7 +63,35 @@
     }
 
     .project__link {
-        margin: 2.5rem 5.5rem;
+        margin: 2.5rem 5.5rem auto;
         padding: 1.5rem;
+    }
+}
+
+@media (min-width: 37.5em) {
+    .project__section {
+        border: none;
+    }
+
+    .project__title {
+        font-size: 3.2rem;
+    }
+
+    .project__buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project__link {
+        margin: auto auto 2.5rem;
+        padding: 2rem 3.5rem;
+    }
+
+    .project__link:hover {
+        padding: 1.5rem 3rem;
+    }
+
+    .project__link:focus {
+        padding: 1.5rem 3rem;
     }
 }
