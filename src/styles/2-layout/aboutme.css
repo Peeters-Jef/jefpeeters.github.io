@@ -1,6 +1,5 @@
 @import url(/src/styles/1-base/2-general.css);
 
-
 .skills__section {
     display: flex;
     justify-content: space-between;
@@ -17,7 +16,6 @@
 }
 
 @media (min-width: 28em) {
-
     .skills__section {
         padding-bottom: 4rem;
     }
@@ -29,5 +27,15 @@
     .skills__item {
         font-size: 1.7rem;
         margin-bottom: 1.3rem;
+    }
+}
+
+@media (min-width: 37.5em) {
+    .skills__subtitle {
+        font-size: 3.2rem;
+    }
+    
+    .skills__item {
+        font-size: 2.3rem;
     }
 }
